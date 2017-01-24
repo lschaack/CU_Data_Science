@@ -1,0 +1,10 @@
+linear: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True)
+steps: [('poly', PolynomialFeatures(degree=2, include_bias=True, interaction_only=False)), ('linear', LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True))]
+poly__interaction_only: False
+poly__degree: 2
+linear__normalize: True
+linear__fit_intercept: True
+poly__include_bias: True
+poly: PolynomialFeatures(degree=2, include_bias=True, interaction_only=False)
+linear__n_jobs: 1
+linear__copy_X: True

@@ -1,0 +1,15 @@
+In my approach to districts.py, I essentially programmed the methods individually (only paying attention to their place in the program as a whole when creating the histogram) since their functions were each fairly straightforward. For lm.py, context was hugely important just to understand the purpose of the pre-coded data structure (self._vocab) and the need for another data structure (self._counts) to allow all the necessary functionality. As such, I read all the given code for the BigramLanguageModel class before going to work on its functions.
+
+In general, Colorado's congressional districts look more like disctricts which Obama won, as their log probabilities show most districts--excepting districts 4 and 5, 4 being very rural and 5 containing several large military institutions including NORAD and the Air Force Academy--having a log probability closer to 0 for Obama, indicating their general election values to be closer to a given variance about the mean of states won by Obama.
+
+Assuming my histogram (attempting to directly show general election distribution of every state) is correct, it is unreasonable to assume a normal distribution for the Republican vote. This is likely due to the higher polarization of districts (as opposed to states) as a result of higher variances from a smaller section of population, "clumping" of similar views due to the particular grouping of districts (rural vs urban and so on), and potential side effects of gerrymandering from both sides.
+
+Word said by Obama and no previous president: “antsy”
+It's hard to imagine a president using this word in an official context.
+Bigram______________________________________: “eighth year”
+This seems like a bizarrely common phrase for none of the tested presidents to have said in their State of the Union speeches, but my vocab generation seems to be working fine.
+
+Democrat sentence:
+i seattle it encouraging commercial curbed unrealized illiteracy there allocations above yet actions we americorps role toys we relate permitted
+Republican sentence:
+formal fellow it we try unusual authorizing ninety unemployment europe we but imperils and parolees striven applause it consolidation debating
